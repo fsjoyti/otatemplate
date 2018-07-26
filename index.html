@@ -3,12 +3,23 @@
 
 <head>
     <title>Home</title>
+    <link rel = stylesheet type="text/css" href="assets/css/header.css">
 </head>
 
 <body>
     <header class="header">
-        <a href="#">Logo Here</a>
-        <nav class="header_nav"></nav>
+         <div class = "row">
+            <a href="index.html" id  ="logo"><img id="logoimage" src="assets/images/logo.png" alt = "logo" ></a>
+            <nav id="myDIV">
+                <a class  = "btn active" href="index.html">Home</a>
+                <a class = "btn" href="#">Our History</a>
+                <a class = "btn" href="#">Programs</a>
+                <a class = "btn" href="#">Locations</a>
+                <a class = "btn" href="#">Staff</a>
+                <a class = "btn" href="#">News</a>
+                <a  class= "btn" href="#">Contact us</a>
+            </nav>
+         </div>
     </header>
     <div class="content">
         <div class="content_title">Contnet Title</div>
@@ -46,6 +57,6 @@
         </div>
     </div>
     <footer class="footer"></footer>
+    <script src = "assets/scripts/navigationactive.js"></script>
 </body>
-
 </html>
