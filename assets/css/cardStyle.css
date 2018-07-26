@@ -1,5 +1,6 @@
 .card_container {
     margin-left: 10%;
+    margin-bottom: 45%;
 }
 
 .card {
@@ -33,4 +34,9 @@
 
 .icon {
     margin-right:5px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #f5f5f5;
 }
