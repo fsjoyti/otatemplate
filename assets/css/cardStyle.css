@@ -1,0 +1,31 @@
+.card_container {
+    margin-left: 5%;
+}
+
+.card {
+    font-family: sans-serif;
+    padding: 25px;
+    width: 19%;
+    float: left;
+}
+
+.card h1 {
+    font-weight: lighter;
+    line-height: 1.5;
+    font-family: serif;
+    color: #5a5a5a ;
+}
+
+.card p {
+    color:#7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.card a {
+    color: #5a5a5a ;
+}
+
+.icon {
+    margin-right:5px;
+}
