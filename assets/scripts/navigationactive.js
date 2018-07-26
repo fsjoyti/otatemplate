@@ -13,3 +13,13 @@ for (var i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
+
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}

@@ -43,6 +43,18 @@ nav a.icon{
         float: right;
         display: block;
     }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
 .btn {
     border: none;
