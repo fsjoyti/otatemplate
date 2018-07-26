@@ -1,12 +1,17 @@
 .card_container {
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .card {
     font-family: sans-serif;
     padding: 25px;
+    padding-right: 0px;
     width: 19%;
     float: left;
+}
+
+.card:nth-child(even) {
+    width: 20%;
 }
 
 .card h1 {
