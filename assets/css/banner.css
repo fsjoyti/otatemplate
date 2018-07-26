@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+}
+.content_title{
+	border-top: 3px solid #dedede;
+	border-bottom: 3px solid #dedede;
+	text-align: center;
+	margin: 20px 150px;
+	margin-top: 130px;
+	font-size: 25px;
+	line-height: 75px;
+	color: #666;
+}
+.content_banner{
+	background: url("../images/tree-2.png");
+	margin: 0;
+	width: 100%;
+	height: 300px;
+
+}        
+.content_banner--title{
+	font-size: 35px;
+	color: #fff;
+	margin-left: 100px;
+	padding: 50px;
+	padding-top: 70px;
+	text-shadow: 3px 1px 0px black;
+
+}
+.content_banner--text{
+	color: #fff;
+	margin-left: 100px;
+	margin-right: 550px;
+	padding: 50px;
+	line-height: 25px;
+	text-shadow: 3px 1px 0px black;
+	padding-top: 25px;
+}
